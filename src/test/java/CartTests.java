@@ -3,8 +3,8 @@ import pageobjects.CartPage;
 import pageobjects.ProductPage;
 
 public class CartTests extends BaseTest {
-    String calculusSlug = "/calculus-made-easy-by-silvanus-p-thompson/";
-    String historyOfAstronomySlug = "/history-of-astronomy-by-george-forbes/";
+    private final String calculusSlug = "/calculus-made-easy-by-silvanus-p-thompson/";
+    private final String historyOfAstronomySlug = "/history-of-astronomy-by-george-forbes/";
 
     @Test
     public void no_product_added_to_cart_should_cart_be_empty() {
